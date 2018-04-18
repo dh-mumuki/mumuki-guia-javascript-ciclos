@@ -1,4 +1,4 @@
-Como te adelantamos en el ejercicio anterior, en Javascript existe una forma de decir "quiero que estos comandos se repitan esta cantidad de veces".
+Como te adelantamos, en Javascript existe una forma de decir "quiero que estos comandos se repitan esta cantidad de veces".
 
 Entonces, cuando es necesario repetir un comando (como console.log) un cierto número de veces, en lugar de copiar y pegar como veníamos haciendo hasta ahora, podemos utilizar la sentencia for.
 
