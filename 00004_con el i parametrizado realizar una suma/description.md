@@ -1,0 +1,1 @@
+con el i parametrizado realizar una suma
