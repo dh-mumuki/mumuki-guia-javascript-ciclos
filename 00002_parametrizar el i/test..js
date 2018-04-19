@@ -1,5 +1,9 @@
-describe("Group description", function() {
-  it("Sample description", function() {
-    assert(true)
+describe("decisionConMoneda", () => {
+  it("imprimirAzul(3) es \"AzulAzulAzul\"", () => {
+    assert.equal(imprimirAzul(3), "AzulAzulAzul")
   })
+  it("imprimirAzul(5) es \"AzulAzulAzul\"", () => {
+    assert.equal(imprimirAzul(5), "AzulAzulAzulAzulAzul")
+  })
+
 })
