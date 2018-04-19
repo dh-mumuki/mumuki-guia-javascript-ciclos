@@ -1,0 +1,1 @@
+usar el ejercicio 1 sin parametrizar el i para hacer una sumatoria
