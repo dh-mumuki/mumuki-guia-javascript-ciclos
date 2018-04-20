@@ -1,4 +1,4 @@
-El ejercicio anterior logramos hacer que se imprima por pantalla 5 veces la palabra "Azul", de una manera mucho más eficiente y prolija gracias al for.
+En el ejercicio anterior logramos hacer que se imprima por pantalla 5 veces la palabra "Azul" de una manera mucho más eficiente y prolija gracias al for.
 
 Ahora, muchas veces nos vamos a encontrar con que en vez de necesitar hacer algo una cantidad de veces constante como 5 en el ejercicio anterior vamos a necesitar que esto pueda variar.
 
@@ -27,7 +27,7 @@ Una manera de obtener este valor seria si nos lo pasan como parametro de una fun
 
 ```javascript
 function repetirXVecesAlgo(cantidadDeVeces) {
-  for(var i = 0; i < x; i++) {
+  for(var i = 0; i < cantidadDeVeces; i++) {
    //Aca adentro escribo las instrucciones que quiero repetir
   }
 }
