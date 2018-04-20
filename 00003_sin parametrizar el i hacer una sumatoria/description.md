@@ -27,7 +27,7 @@ Este codigo si bien parece que funcionaria si lo ejecutamos no nos va a dar el v
 
 Esto se debe a que la variable suma esta declarada dentro del for y esto trae dos consecuencias:
 
-1. La variable no existe / no puede ser llamada por fuera del for
+* La variable no existe / no puede ser llamada por fuera del for
 
 ```javascript
 for(var i = 0; i < 5; i++) {
@@ -37,7 +37,7 @@ for(var i = 0; i < 5; i++) {
 console.log(suma) //la variable suma aca ya no existe y no puede ser consultada
 ```
 
-2. La variable es inicializada cada vez que se ejecuta una iteracion del for
+* La variable es inicializada cada vez que se ejecuta una iteracion del for
 
 Dentro del for esta el codigo que queremos que se ejecute en CADA ITERACION, por lo cual en CADA ITERACION se vuelve a ejecutar el mismo codigo.
 Por consecuencia, la primera vez que se ejecute el for
@@ -66,17 +66,6 @@ for(var i = 0; i < 5; i++) {
 }
 
 console.log(suma) //la variable suma aca ya  existe y nos devuelve el valor total que buscabamos.
-```
-
-
-En 
-
-```javascript
-function repetirXVecesAlgo(cantidadDeVeces) {
-  for(var i = 0; i < cantidadDeVeces; i++) {
-   //Aca adentro escribo las instrucciones que quiero repetir
-  }
-}
 ```
 
 > Sabiendo esto escribí una función `sumatoriaHasta`, que toma un parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
