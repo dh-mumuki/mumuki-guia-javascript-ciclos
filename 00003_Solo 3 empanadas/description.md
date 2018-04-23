@@ -68,11 +68,11 @@ for(var i = 0; i < 5; i++) {
 console.log(totalCalorias) //la variable totalCalorias aca ya  existe y nos devuelve el valor total que buscabamos.
 ```
 
-> Sabiendo esto escribí una función `sumatoriaHasta4`, que por dentro hace la sumatoria de los numeros anteriores al 4.
+> Sabiendo esto escribí una función `sumatoriaHasta`, que toma un parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
 Por ejemplo: 
 > 
 > ```javascript
-> ム sumatoriaHasta4()
+> ム sumatoriaHasta(4)
 > "5"
 > ```
 > Esto hizo 0+1+2+3
