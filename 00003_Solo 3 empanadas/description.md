@@ -72,7 +72,7 @@ console.log(totalCalorias) //la variable totalCalorias aca ya  existe y nos devu
 Por ejemplo: 
 > 
 > ```javascript
-> ム sumatoriaHasta(4)
+> ム sumatoriaHasta4()
 > "5"
 > ```
 > Esto hizo 0+1+2+3
