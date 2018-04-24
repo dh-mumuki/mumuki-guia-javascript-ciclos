@@ -5,7 +5,7 @@ Para esto vamos a tener que utilizar todos los conceptos vistos del for hasta ah
 * procesar algo utilizando el for
 * el valor de la variable i
 
-> Sabiendo esto escribí una función `sumatoriaHasta`, que toma un parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
+> Sabiendo esto escribí una función `sumatoriaHasta`, que toma como parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
 Por ejemplo: 
 > 
 > ```javascript
