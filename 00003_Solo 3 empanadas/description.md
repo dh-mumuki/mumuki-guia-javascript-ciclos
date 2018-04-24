@@ -21,7 +21,7 @@ for(var i = 0; i < 3; i++) {
 }
 ```
 
-Donde por cada iteracion estamos diciendo que el "totalCalorias" igual al valor que habia en "totalCalorias" mas 300, de esta manera podriamos obtener el total de los valores.
+Donde por cada iteracion estamos diciendo que el "totalCalorias" es igual al valor que habia en "totalCalorias" mas 300, de esta manera podriamos obtener el total de los valores.
 
 Este codigo si bien parece que funcionaria si lo ejecutamos no nos va a dar el valor que esperamos, porque?.
 
@@ -50,7 +50,7 @@ Por consecuencia, la primera vez que se ejecute el for
 Y la segunda vez que se ejecuta dentro del for
 
 ```javascript
-   var totalCalorias = totalCalorias + 300; //Estamos volviendo a declara la variable totalCalorias, por lo cual no logramos almacenar el valor anterior.
+   var totalCalorias = totalCalorias + 300; //Estamos volviendo a declarar la variable totalCalorias, por lo cual no logramos almacenar el valor anterior y acumular el nuevo valor.
 }
 ```
 
@@ -61,18 +61,18 @@ Esto esta relacionado con la existencia de las variables, la variable totalCalor
 ```javascript
 var totalCalorias = 0; //Aca aprovecho e inicializo en 0 la variable totalCalorias.
 
-for(var i = 0; i < 5; i++) {
-  totalCalorias = totalCalorias + 0.25; //aca la variable como ya esta declarada por fuera del for esta puede ser modificada durante las iteraciones y no se "reinicia"
+for(var i = 0; i < 3; i++) {
+  totalCalorias = totalCalorias + 300; //como la variable ya esta declarada por fuera del for, puede ser modificada durante las iteraciones y no se "reinicia", y aca obtenemos el valor total acumulado
 }
 
-console.log(totalCalorias) //la variable totalCalorias aca ya  existe y nos devuelve el valor total que buscabamos.
+console.log(totalCalorias) //la variable totalCalorias aca ya existe y nos devuelve el valor total que buscabamos.
 ```
 
-> Sabiendo esto escribí una función `sumatoriaHasta`, que toma un parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
+> Sabiendo esto escribí una función `sumar4MonedasDe25`, que imprime la sumatoria de las 4 monedas de 25 centavos.
 Por ejemplo: 
 > 
 > ```javascript
-> ム sumatoriaHasta(4)
-> "5"
+> ム sumar4MonedasDe25()
+> "1.0"
 > ```
-> Esto hizo 0+1+2+3
+> Esto hizo 0.25+0.25+0.25+0.25

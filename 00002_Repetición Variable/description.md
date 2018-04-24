@@ -2,11 +2,11 @@ En el ejercicio anterior logramos hacer que se imprima por pantalla 5 veces la p
 
 Ahora, muchas veces nos vamos a encontrar con que en vez de necesitar hacer algo una cantidad de veces constante como 5 en el ejercicio anterior vamos a necesitar que esto pueda variar.
 
-Por ejemplo, recien hicimos una funcion que imprime 5 veces azul usando el for. También podriamos necesitar que se imprima 4 veces, y para eso hoy en dia necesitariamos crear otra funcion. 
+Por ejemplo, podriamos hacer una funcion que imprima 5 veces azul y que esta los imprima usando el for, ahora tambien podemos llegar a necesitar que se imprima 4 veces, y para eso hoy en dia necesitariamos crear otra funcion. 
 Como ven esto no escala, sin embargo con algunas cosas que vimos podemos darle una vuelta de rosca y hacer una funcion generica que reciba cuantas veces queremos que se ejecute algo. Algo asi como un imprimir varias veces "Azul" generico.
 
 Para esto tenemos que modificar el for.
-Antes, si queríamos repetir una instrucción 4 veces, podríamos escribir lo siguiente:
+Si queriamos si queremos repetir una instrucción 4 veces, podríamos escribir lo siguiente:
 
 ```javascript
 for(var i = 0; i < 4; i++) {
@@ -14,7 +14,7 @@ for(var i = 0; i < 4; i++) {
 }
 ```
 
-Para que el for sea dinamico, y en vez de repetirse solo 4 veces pueda hacerlo x cantidad de veces, solo hay que modificar la validación (o sea, el 4).
+Para que el for sea dinamico y en vez de repetirse solo 4 veces y pueda hacerlo x cantidad de veces solo hay que modificar el 4.
 
 ```javascript
 for(var i = 0; i < x; i++) {
