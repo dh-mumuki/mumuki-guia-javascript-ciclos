@@ -1,5 +1,5 @@
 describe("", function() {
   it("deberia imprimir cuatro veces la palabra Azul", function() {
-    assert.ok(console.toString()=== "Azul\nAzul\nAzul\nAzul")
+    expect( console.log.calledOnce ).to.be("AzulAzulAzulAzul");
   });
 })
