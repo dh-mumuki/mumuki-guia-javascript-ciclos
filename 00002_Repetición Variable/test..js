@@ -1,6 +1,7 @@
-describe("imprimirAzul", () => {
-  it("imprimirAzul(3) es \"AzulAzulAzul\"", () => {
-    imprimirAzul(1)
-    assert.equal(console.toString(), "Azul")
-  })
+describe("Imprimir imprimirAzul(3)", function() {
+  it("deberia imprimir por pantalla Azul Azul Azul", function() {
+    imprimirAzul(3);
+    assert.equal(console.toString(), "Azul\n1\Azul\n3\Azul\n")
+  });
 })
+
