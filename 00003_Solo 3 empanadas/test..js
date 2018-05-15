@@ -1,7 +1,5 @@
-describe("Imprimir imprimirAzul(3)", function() {
-  it("deberia imprimir por pantalla Azul Azul Azul", function() {
-    sumatoriaHasta4();
-    assert.equal(console.toString(), "6\n")
-  });
+describe("Group description", function() {
+  it("Sample description", function() {
+    assert(true)
+  })
 })
-

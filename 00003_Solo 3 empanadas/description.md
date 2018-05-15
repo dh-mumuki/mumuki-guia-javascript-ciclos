@@ -73,6 +73,6 @@ Por ejemplo:
 > 
 > ```javascript
 > ム sumatoriaHasta(4)
-> "6"
+> "5"
 > ```
 > Esto hizo 0+1+2+3
