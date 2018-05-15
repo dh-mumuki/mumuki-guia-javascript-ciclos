@@ -1,6 +1,7 @@
 describe("versos", function() {
   it("deberia imprimir los versos", function() {
-    expect( console.log.calledOnce ).to.be.true;
-    })
+    imprimirAzul4();
+    assert.equal(console.toString(), "Azul\nAzul\nAzul\nAzul\n")
+  });
 })
 
