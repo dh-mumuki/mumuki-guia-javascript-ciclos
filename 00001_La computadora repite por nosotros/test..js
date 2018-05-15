@@ -1,5 +1,7 @@
-describe("", function() {
-  it("deberia imprimir cuatro veces la palabra Azul", function() {
-    expect( console.log.calledOnce ).to.be("AzulAzulAzulAzul");
+describe("versos", function() {
+  it("deberia imprimir los versos", function() {
+    imprimirAzul()
+    assert.equal(console.toString(), "Azul\nAzul\nAzul\nAzul\n")
   });
 })
+
