@@ -37,6 +37,6 @@ function repetirXVecesAlgo(cantidadDeVeces) {
 Por ejemplo: 
 > 
 > ```javascript
-> ム imprirAzul(3)
+> ム imprimirAzul(3)
 > "AzulAzulAzul"
 > ```
