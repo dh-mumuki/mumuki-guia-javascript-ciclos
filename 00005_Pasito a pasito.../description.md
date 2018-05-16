@@ -9,11 +9,11 @@ for(var i = 0; i < 4; i++) {
 }
 ```
 
-> Sabiendo esto escribí una función `pasitoApasito`, que imprime 5 veces el contenido de i.
+> Sabiendo esto escribí una función `pasitoAPasito`, que imprime 5 veces el contenido de i.
 Por ejemplo: 
 > 
 > ```javascript
-> ム pasitoApasito()
+> ム pasitoAPasito()
 > "01234"
 > ```
 > Esto hizo un console.log(valor) por cada iteracion.
