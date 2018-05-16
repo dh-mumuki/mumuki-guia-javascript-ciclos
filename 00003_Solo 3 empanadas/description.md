@@ -68,11 +68,12 @@ for(var i = 0; i < 5; i++) {
 console.log(totalCalorias) //la variable totalCalorias aca ya  existe y nos devuelve el valor total que buscabamos.
 ```
 
-> Sabiendo esto escribí una función `sumatoriaHasta`, que toma un parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
+> Sabiendo esto escribí una función `sumar5MonedasDe25Centavos`, realice 5 veces la suma de 0.25 centavos.
+
 Por ejemplo: 
 > 
 > ```javascript
-> ム sumatoriaHasta(4)
-> "6"
+> ム sumar5MonedasDe25Centavos()
+> "1.25"
 > ```
-> Esto hizo 0+1+2+3
+> Esto hizo 0.25+0.25+0.25+0.25+0.25

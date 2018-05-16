@@ -1,6 +1,6 @@
 Con las ejercitaciones previas vimos como usar el for para ejecutar una accion una cantidad de veces fija y variable y como hacer algun procesamiento dentro del mismo.
 
-En el ejercicio anterior supimos como calcular la sumatoria de 5 monedas de 25 centavos.
+En el ejercicio anterior supimos como calcular la sumatoria de 4 monedas de 25 centavos.
 La idea seria que logremos hacer una funcion que calcule la sumatoria de cualquier cantidad de monedas.
 
 Para esto vamos a expandir el ejemplo de las empanadas anterior en el cual calculabamos las calorias de 3 empanadas.

@@ -1,7 +1,7 @@
-describe("Imprimir sumatoriaHasta()", function() {
-  it("deberia imprimir por pantalla 6", function() {
-    sumatoriaHasta(4);
-    assert.equal(console.toString(), "6\n")
+describe("Imprimir sumar5MonedasDe25Centavos()", function() {
+  it("deberia imprimir por pantalla 1.25", function() {
+    sumar5MonedasDe25Centavos();
+    assert.equal(console.toString(), "1.25\n")
   });
 })
 
