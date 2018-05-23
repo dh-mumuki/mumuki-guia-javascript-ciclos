@@ -1,6 +1,6 @@
-describe("Imprimir pasandoPorI()", function() {
+describe("Imprimir pasandoPorLosPares()", function() {
   it("deberia imprimir 'acá i tiene el valor de 0','acá i tiene el valor de 1','acá i tiene el valor de 2','acá i tiene el valor de 3'", function() {
-    imprimirAzul4();
+    pasandoPorLosPares()();
     assert.equal(console.toString(), "'acá i tiene el valor de 0'\'acá i tiene el valor de 2'\'acá i tiene el valor de 4'\'acá i tiene el valor de 6'\n")
   });
 })
