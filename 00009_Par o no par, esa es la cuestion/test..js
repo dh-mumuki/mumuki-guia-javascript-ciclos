@@ -1,7 +1,7 @@
-describe("Imprimir imprimirAzul4()", function() {
-  it("deberia imprimir Azul Azul Azul Azul", function() {
+describe("Imprimir pasandoPorI()", function() {
+  it("deberia imprimir 'acá i tiene el valor de 0','acá i tiene el valor de 1','acá i tiene el valor de 2','acá i tiene el valor de 3'", function() {
     imprimirAzul4();
-    assert.equal(console.toString(), "Azul\nAzul\nAzul\nAzul\n")
+    assert.equal(console.toString(), "'acá i tiene el valor de 0'\'acá i tiene el valor de 2'\'acá i tiene el valor de 4'\'acá i tiene el valor de 6'\n")
   });
 })
 
