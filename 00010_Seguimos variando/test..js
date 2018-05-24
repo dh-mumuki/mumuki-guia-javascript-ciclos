@@ -1,5 +1,5 @@
 describe("Imprimir sumaDeLosParesDel0Al(10)", function() {
-  it("deberia imprimir 20", function() {
+  it("deberia imprimir 12", function() {
     sumaDeLosParesDel0Al(6);
     assert.equal(console.toString(), "12\n")
   });
