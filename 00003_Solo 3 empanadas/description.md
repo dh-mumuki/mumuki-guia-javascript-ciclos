@@ -68,12 +68,12 @@ for(var i = 0; i < 5; i++) {
 console.log(totalCalorias) //la variable totalCalorias aca ya  existe y nos devuelve el valor total que buscabamos.
 ```
 
-> Sabiendo esto escribí una función `sumar5MonedasDe25Centavos`, realice 5 veces la suma de 0.25 centavos.
+> Sabiendo esto escribí una función `sumar5MonedasDe25Centavos`, realice 5 veces la suma de 0.25 centavos y retorne el resultado.
 
 Por ejemplo: 
 > 
 > ```javascript
 > ム sumar5MonedasDe25Centavos()
-> "1.25"
+> 1.25
 > ```
 > Esto hizo 0.25+0.25+0.25+0.25+0.25
