@@ -5,11 +5,11 @@ Para esto vamos a tener que utilizar todos los conceptos vistos del for hasta ah
 * procesar algo utilizando el for
 * el valor de la variable i
 
-> Sabiendo esto escribí una función `sumatoriaHasta`, que toma como parámetro X un valor numerico e imprime la sumatoria de los numeros anteriores a el.
+> Sabiendo esto escribí una función `sumatoriaHasta`, que toma como parámetro X un valor numerico y devuelva (no imprima) la sumatoria de los numeros anteriores a el.
 Por ejemplo: 
 > 
 > ```javascript
 > ム sumatoriaHasta(4)
-> "5"
+> 5
 > ```
 > Esto hizo 0+1+2+3
