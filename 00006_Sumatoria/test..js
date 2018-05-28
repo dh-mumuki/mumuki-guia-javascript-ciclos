@@ -4,7 +4,7 @@ describe("Calcular sumatoriaHasta(4)", function() {
   });
 })
 describe("Calcular sumatoriaHasta(5)", function() {
-  it("deberia devolver 11", function() {
+  it("deberia devolver 10", function() {
     assert.equal(sumatoriaHasta(5), 10)
   });
 })
