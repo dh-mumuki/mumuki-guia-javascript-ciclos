@@ -4,7 +4,7 @@ Para esto tenemos que crear la funcion caloriasDeTrote() que recibe por parametr
 Las calorias se calculan de la siguiente manera:
 1) 5 calorias cada vuelta * el numero de vuelta que se da. Ya que cada vez las vueltas consumen mas y mas calorias.
 
-> Sabiendo esto escribí una función `caloriasDeTrote()`, que toma como parámetro X un valor numerico que representa la cantidad de metros a correr y devuelve (no imprime) la cantidad de calorias que consumiria.
+> Sabiendo esto escribí una función `caloriasDeTrote()`, que toma como parámetro X un valor numerico que representa la cantidad de vueltas a correr y devuelve (no imprime) la cantidad de calorias que consumiria.
 
 Por ejemplo: 
 > 
