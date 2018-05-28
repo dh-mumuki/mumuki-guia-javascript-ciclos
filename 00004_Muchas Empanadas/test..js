@@ -1,7 +1,12 @@
-describe("Imprimir sumarMonedasDe25(6)", function() {
-  it("deberia imprimir por pantalla  1.50", function() {
-    sumarMonedasDe25(6);
-    assert.equal(console.toString(), "1.5\n")
+describe("Calcular sumarMonedasDe25(6)", function() {
+  it("deberia devolver 1.50", function() {
+    assert.equal(sumarMonedasDe25(6), 1.5")
   });
 })
+describe("Calcular sumarMonedasDe25(4)", function() {
+  it("deberia devolver 1", function() {
+    assert.equal(sumarMonedasDe25(4), 1")
+  });
+})
+
 
