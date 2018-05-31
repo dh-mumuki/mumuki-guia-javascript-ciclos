@@ -23,7 +23,7 @@ for(var i = 0; i < 3; i++) {
 
 Donde por cada iteración estamos diciendo que el "totalCalorias" es igual al valor que había en "totalCalorias" más 300, de esta manera podríamos obtener el total de los valores.
 
-Este código si bien parece que funcionaría si lo ejecutamos, no nos va a dar el valor que esperamos, porque?.
+Este código si bien parece que funcionaría si lo ejecutamos, no nos va a dar el valor que esperamos, por qué?
 
 Esto se debe a que la variable "totalCalorias" está declarada dentro del for y esto trae dos consecuencias:
 
@@ -31,7 +31,7 @@ Esto se debe a que la variable "totalCalorias" está declarada dentro del for y 
 
 ```javascript
 for(var i = 0; i < 3; i++) {
-   var totalCalorias = totalCalorias + 300; //la variable totalCalorias esta declarada dentro del for y solo puede ser usada ahí dentro
+   var totalCalorias = totalCalorias + 300; //la variable totalCalorias esta declarada dentro del for y sólo puede ser usada ahí dentro
 }
 
 console.log(totalCalorias) //la variable totalCalorias acá ya no existe y no puede ser consultada
@@ -43,23 +43,23 @@ Dentro del for esta el código que queremos que se ejecute en CADA ITERACION, po
 Por consecuencia, la primera vez que se ejecute el for
 
 ```javascript
-   var totalCalorias = totalCalorias + 300; //totalCalorias podria terminar valiendo 300
+   var totalCalorias = totalCalorias + 300; //totalCalorias podría terminar valiendo 300
 }
 ```
 
 Y la segunda vez que se ejecuta dentro del for
 
 ```javascript
-   var totalCalorias = totalCalorias + 300; //Estamos volviendo a declara la variable totalCalorias, por lo cual no logramos almacenar el valor anterior.
+   var totalCalorias = totalCalorias + 300; //Estamos volviendo a declarar la variable totalCalorias, por lo cual no logramos almacenar el valor anterior.
 }
 ```
 
 Cómo solucionamos esto?
 
-Esto esta relacionado con la existencia de las variables, la variable totalCalorias es local al for, y por ende sólo la podemos usar ahí y se resetea por cada iteración. Si queremos mantener el valor por fuera de cada iteración debemos hacer que esta varible sea global al for. Esto lo logramos de manera sencilla declarando la variable totalCalorias por fuera del for.
+Esto esta relacionado con la existencia de las variables, la variable totalCalorias es local al for, y por ende sólo la podemos usar ahí y se resetea por cada iteración. Si queremos mantener el valor por fuera de cada iteración, debemos hacer que esta varible sea global al for. Esto lo logramos de manera sencilla declarando la variable totalCalorias por fuera del for.
 
 ```javascript
-var totalCalorias = 0; //Aca aprovecho e inicializo en 0 la variable totalCalorias.
+var totalCalorias = 0; //Acá aprovecho e inicializo en 0 la variable totalCalorias.
 
 for(var i = 0; i < 5; i++) {
   totalCalorias = totalCalorias + 0.25; //acá la variable, como ya esta declarada por fuera del for, puede ser modificada durante las iteraciones y no se "reinicia"
