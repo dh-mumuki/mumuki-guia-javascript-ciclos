@@ -1,5 +1,5 @@
-Antes de seguir avanzando con el for, tratemos de analizar bien que es lo que sucede adentro del mismo.
-Ya sabemos que ejecuta el codigo que nosotros le pedimos mientras se cumpla una determinada condicion.
+Antes de seguir avanzando con el for, tratemos de analizar bien qué es lo que sucede adentro del mismo.
+Ya sabemos que ejecuta el código que nosotros le pedimos mientras se cumpla una determinada condición.
 
 El for tiene una variable que va cambiando, y esta es i. Es importante entender el comportamiento de esta. Recordemos del apartado anterior que el valor i se va incrementando a medida que va iterando. 
 
@@ -9,7 +9,7 @@ for(var i = 0; i < 4; i++) {
 }
 ```
 
-> Sabiendo esto escribí una función `pasitoAPasito`, que imprime 5 veces el contenido de i.
+> Sabiendo esto, escribí una función `pasitoAPasito`, que imprime 5 veces el contenido de i.
 Por ejemplo: 
 > 
 > ```javascript
