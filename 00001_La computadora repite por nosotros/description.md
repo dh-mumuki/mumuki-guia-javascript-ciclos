@@ -9,7 +9,7 @@ for(var i = 0; i < 4; i++) {
    //Aca adentro escribo las instrucciones que quiero repetir
 }
 ```
-En el for tenés un contador de repeticiones, en el ejemplo anterior ese contador es la variable i. Tenés que indicar donde comienza a contar, cual es la condición en donde dejará de contar, en ese caso i < 4 y cómo se modifica la i en cada repetición (en este caso se incrementa uno).
+En el for tenés un contador de repeticiones, en el ejemplo anterior ese contador es la variable i. Tenés que indicar donde comienza a contar, cuál es la condición en donde dejará de contar, en ese caso i < 4 y cómo se modifica la i en cada repetición (en este caso se incrementa uno).
 
 Sabiendo esto, así es ¿Cómo podemos hacer para imprimir 4 veces por pantalla la palabra Azul?
 
