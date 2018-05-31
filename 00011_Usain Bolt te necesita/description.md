@@ -1,4 +1,4 @@
-Para las próximas olimpíadas, Usain Bolt, para calcular su dieta necesita un simulado,r que dado un entrenamiento le diga cuantas calorías necesita consumir para poder realizar un ejercicio de trote.
+Para las próximas olimpíadas, Usain Bolt, para calcular su dieta necesita un simulador, que dado un entrenamiento le diga cuantas calorías necesita consumir para poder realizar un ejercicio de trote.
 
 Para esto tenemos que crear la funcion caloriasDeTrote() que recibe por parámetro las vueltas que tiene que recorrer.
 Las calorías se calculan de la siguiente manera:
