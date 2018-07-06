@@ -7,6 +7,7 @@ teacher_info: ''
 language: javascript
 id_format: "%05d"
 order:
+- 12
 - 1
 - 7
 - 5
@@ -18,4 +19,3 @@ order:
 - 4
 - 6
 - 11
-- 12
