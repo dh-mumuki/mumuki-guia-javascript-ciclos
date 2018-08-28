@@ -1,4 +1,4 @@
-Hasta ahora nos enfocamos en comprender que el for nos sirve para repetir una acción X cantidad de veces.
+Hasta ahora nos enfocamos en comprender que el `for` nos sirve para repetir una acción X cantidad de veces.
 En este ejercicio nos vamos a enforcar en la acción.
 Hasta este momento solo imprimíamos por pantalla la palabra "Azul", ahora vamos a hacer algo más avanzado y la idea sería utilizar el for para obtener el resultado de una operación realizada una cantidad de veces.
 
@@ -68,7 +68,7 @@ for(var i = 0; i < 5; i++) {
 console.log(totalCalorias) //la variable totalCalorias acá ya existe y nos devuelve el valor total que buscábamos.
 ```
 
-> Sabiendo esto, escribí una función `sumar5MonedasDe25Centavos`, que realice 5 veces la suma de 0.25 centavos y retorne el resultado.
+> Sabiendo esto, escribí una función `sumar5MonedasDe25Centavos`, que sume el valor de 5 monedas de 0.25 centavos y retorne el resultado.
 
 Por ejemplo: 
 > 
