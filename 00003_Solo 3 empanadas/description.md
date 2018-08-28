@@ -1,10 +1,10 @@
 Hasta ahora nos enfocamos en comprender que el `for` nos sirve para repetir una acción X cantidad de veces.
 En este ejercicio nos vamos a enforcar en la acción.
-Hasta este momento solo imprimíamos por pantalla la palabra "Azul", ahora vamos a hacer algo más avanzado y la idea sería utilizar el for para obtener el resultado de una operación realizada una cantidad de veces.
+Hasta este momento solo imprimíamos por pantalla la palabra "Azul", ahora vamos a hacer algo más avanzado y la idea sería utilizar el `for` para obtener el resultado de una operación realizada una cantidad de veces.
 
 Si quisiéramos contar cuantas calorias tienen 3 empanadas y cada empanada tiene 300 calorias, podríamos hacer dos cosas, una sería multiplicar, y otra sería sumar 3 veces 300 calorias.
 
-Para hacer esto en código primero necesitamos hacer un for que se ejecute 3 veces:
+Para hacer esto en código primero necesitamos hacer un `for` que se ejecute 3 veces:
 
 
 ```javascript
@@ -25,7 +25,7 @@ Donde por cada iteración estamos diciendo que el "totalCalorias" es igual al va
 
 Este código si bien parece que funcionaría si lo ejecutamos, no nos va a dar el valor que esperamos, por qué?
 
-Esto se debe a que la variable "totalCalorias" está declarada dentro del for y esto trae dos consecuencias:
+Esto se debe a que la variable "totalCalorias" está declarada dentro del `for` y esto trae dos consecuencias:
 
 * La variable no existe / no puede ser llamada por fuera del for
 
@@ -39,15 +39,15 @@ console.log(totalCalorias) //la variable totalCalorias acá ya no existe y no pu
 
 * La variable es inicializada cada vez que se ejecuta una iteracion del for
 
-Dentro del for esta el código que queremos que se ejecute en CADA ITERACION, por lo cual en CADA ITERACION se vuelve a ejecutar el mismo código.
-Por consecuencia, la primera vez que se ejecute el for
+Dentro del `for` esta el código que queremos que se ejecute en CADA ITERACION, por lo cual en CADA ITERACION se vuelve a ejecutar el mismo código.
+Por consecuencia, la primera vez que se ejecute el `for`
 
 ```javascript
    var totalCalorias = totalCalorias + 300; //totalCalorias podría terminar valiendo 300
 }
 ```
 
-Y la segunda vez que se ejecuta dentro del for
+Y la segunda vez que se ejecuta dentro del `for`
 
 ```javascript
    var totalCalorias = totalCalorias + 300; //Estamos volviendo a declarar la variable totalCalorias, por lo cual no logramos almacenar el valor anterior.
@@ -56,7 +56,7 @@ Y la segunda vez que se ejecuta dentro del for
 
 Cómo solucionamos esto?
 
-Esto esta relacionado con la existencia de las variables, la variable totalCalorias es local al for, y por ende sólo la podemos usar ahí y se resetea por cada iteración. Si queremos mantener el valor por fuera de cada iteración, debemos hacer que esta varible sea global al for. Esto lo logramos de manera sencilla declarando la variable totalCalorias por fuera del for.
+Esto esta relacionado con la existencia de las variables, la variable totalCalorias es local al `for`, y por ende sólo la podemos usar ahí y se resetea por cada iteración. Si queremos mantener el valor por fuera de cada iteración, debemos hacer que esta varible sea global al `for`. Esto lo logramos de manera sencilla declarando la variable totalCalorias por fuera del `for`.
 
 ```javascript
 var totalCalorias = 0; //Acá aprovecho e inicializo en 0 la variable totalCalorias.
