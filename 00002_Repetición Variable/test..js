@@ -3,10 +3,6 @@ describe("Imprimir imprimirAzul(3)", function() {
     imprimirAzul(3);
     assert.equal(console.toString(), "Azul\nAzul\nAzul\n")
   });
-    it("deberia imprimir Azul Azul Azul Azul", function() {
-    imprimirAzul(4);
-    assert.equal(console.toString(), "Azul\nAzul\nAzul\nAzul\n")
-  });
 });
 
 
