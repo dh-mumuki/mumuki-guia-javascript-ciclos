@@ -45,6 +45,20 @@ function caloriasDeEmpanadas(cantidadDeEmpanadas){
 
 Y de esta manera logramos hacer nuestra función, que al pasarle la cantidad de empanadas, esta imprime por pantalla la cantidad de calorías totales.
 
+Te proponemos una última modificación. En vez de hacer que la función imprima, vamos a hacer que esta función **devuelva** un valor, para eso vamos a utilizar el `return`.  
+
+
+```javascript
+function caloriasDeEmpanadas(cantidadDeEmpanadas){
+  var totalCalorias = 0; 
+
+  for(var i = 0; i < cantidadDeEmpanadas; i++) {
+    totalCalorias = totalCalorias + 300;
+  }
+
+  return totalCalorias;
+}
+```
 
 > Sabiendo esto, escribí una función `sumarMonedasDe25(cantidadDeMonedas)`, que tome como parámetro un valor numérico y devuelva la sumatoria de las monedas de 25 centavos.
 Por ejemplo: 
