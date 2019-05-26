@@ -3,7 +3,6 @@ name: Ciclos
 locale: es
 type: learning
 beta: false
-teacher_info: ''
 language: javascript
 id_format: "%05d"
 order:
@@ -19,3 +18,4 @@ order:
 - 10
 - 6
 - 11
+private: false
