@@ -14,6 +14,10 @@ Por ejemplo:
 > 
 > ```javascript
 > ム pasitoAPasito()
-> "01234"
+>   0
+>   1
+>   2
+>   3
+>   4
 > ```
 > Esto hizo un console.log(valor) por cada iteracion.
