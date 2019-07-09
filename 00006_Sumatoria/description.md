@@ -12,6 +12,6 @@ Por ejemplo:
 > 
 > ```javascript
 > ム sumatoriaHasta(4)
-> 5
+> 6
 > ```
 > Esto hizo 0+1+2+3
