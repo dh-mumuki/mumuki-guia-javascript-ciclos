@@ -1,6 +1,6 @@
 describe("Imprimir imprimirAzul4()", function() {
   it(`deberia imprimir: 
-  Azul
+  \nAzul
   Azul
   Azul
   Azul`, function() {
