@@ -10,4 +10,4 @@ Las calorías se calculan de la siguiente manera: _5 calorías (que consume cada
 > ```javascript
 > ム caloriasDeTrote(2)
 > ```
-> Deveria devolver 15 donde 5 calorias son de la primera vuelta (5 * 1) y 10 calorias de la segunda (5 * 2).
+> Debería devolver 15 donde 5 calorias son de la primera vuelta (5 * 1) y 10 calorias de la segunda (5 * 2).
